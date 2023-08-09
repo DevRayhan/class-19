@@ -111,3 +111,27 @@ li .dropdown li a {
     background-color: black;
     color: white;
 }
+
+/* about      section       start */
+.aboutSection{
+    padding: 117px 0;
+}
+.aboutSection span{
+    color: #c69453;
+}
+.aboutSection h1 {
+    font-size: 37px;
+    line-height: 67px;
+}
+.m-btn {
+    background-color: black;
+    color: white;
+    padding: 13px 27px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 27px;
+    transition: .7s;
+}
+.m-btn:hover{
+    background-color: #c69453;
+}
