@@ -135,3 +135,31 @@ li .dropdown li a {
 .m-btn:hover{
     background-color: #c69453;
 }
+
+/* contact           section             start */
+
+.contactSection{
+    padding: 117px 0;
+}
+.contactSection h2 {
+    font-size: 32px;
+    line-height: 71px;
+}
+.d-input {
+    width: 100%;
+    padding: 13px 23px;
+    margin: 13px 0;
+    outline: none;
+    border: 1px solid cyan;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px rgb(202, 202, 188);
+}
+.in-b{
+    border: none;
+    background-color: cornflowerblue;
+}
+.background{
+    background-image: url(https://i.ibb.co/hCgnPkb/ia-200000022.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
