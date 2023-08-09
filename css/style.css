@@ -4,6 +4,19 @@
     background-image: url(https://i.ibb.co/rwj47nW/ia-200000019.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.headerSection::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
 }
 .logo img{
     width: 197px;
@@ -20,6 +33,9 @@
     padding: 7px 23px;
 }
 .nav-menu ul li a:hover{
+    color: chocolate;
+}
+.nav-menu ul li:first-child a{
     color: chocolate;
 }
 /* dropdown  start */
@@ -46,3 +62,28 @@ li .dropdown li a {
 }
 
 /* banner       section         start */
+
+.bannerContant{
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+.bannerContant h1{
+    font-size: 77px;
+}
+.bannerContant h3 {
+    margin: 37px 0;
+}
+.bannerContant a{
+    text-decoration: none;
+    color: white;
+    background-color: #c69453;
+    padding: 13px 27px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: .5s;
+}
+.bannerContant a:hover{
+    background-color: white;
+    color: #c69453;
+}
