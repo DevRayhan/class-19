@@ -87,3 +87,27 @@ li .dropdown li a {
     background-color: white;
     color: #c69453;
 }
+
+/* service       section           start */
+
+.serviceSection{
+    padding: 107px 0;
+    text-align: center;
+}
+.serviceSection h3 {
+    font-size: 17px;
+    line-height: 37px;
+}
+.serviceSection a {
+    text-decoration: none;
+    background-color: #c69453;
+    border-radius: 7px;
+    color: white;
+    padding: 7px 27px;
+    line-height: 51px;
+    transition: .7s;
+}
+.serviceSection a:hover{
+    background-color: black;
+    color: white;
+}
