@@ -18,8 +18,16 @@
     position: absolute;
     z-index: -1;
 }
-.logo img{
+.logo{
     width: 197px;
+    line-height: 57px;
+}
+.logo img{
+    max-width: 100%;
+
+}
+.nav-menu ul{
+    line-height: 37px;
 }
 .nav-menu ul li{
     list-style: none;
