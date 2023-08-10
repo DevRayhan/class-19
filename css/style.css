@@ -213,3 +213,21 @@ li .dropdown li a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* footer        section      start */
+
+.footerSection{
+    background-color: #6d6d6d;
+    color: white;
+    padding: 27px 0;
+}
+.footer p{
+    margin-bottom: 0px;
+}
+.footer ul{
+    margin-bottom: 0px;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 13px 17px;
+}
