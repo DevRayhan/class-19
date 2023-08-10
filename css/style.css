@@ -34,6 +34,15 @@
     display: inline-block;
     position: relative;
 }
+.nav-menu ul li::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #c69453;
+}
 .nav-menu ul li a {
     display: inline-block;
     text-decoration: none;
