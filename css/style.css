@@ -222,7 +222,7 @@ li .dropdown li a {
 
 }
 .background{
-    background-image: url(https://i.ibb.co/hCgnPkb/ia-200000022.jpg);
+    background-image: url("../Compressed/img/ia_200000022.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
