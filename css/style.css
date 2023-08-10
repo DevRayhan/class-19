@@ -182,9 +182,6 @@ li .dropdown li a {
     margin-top: 27px;
     transition: .7s;
 }
-.m-btn:hover{
-    background-color: #c69453;
-}
 
 /* contact           section             start */
 
@@ -206,7 +203,14 @@ li .dropdown li a {
 }
 .in-b{
     border: none;
-    background-color: cornflowerblue;
+    background-color: #c69453;
+    border: 1px solid #c69453;
+}
+.in-b:hover{
+    background-color: white;
+    color: #c69453;
+    border: 1px solid #c69453;
+
 }
 .background{
     background-image: url(https://i.ibb.co/hCgnPkb/ia-200000022.jpg);
@@ -223,11 +227,16 @@ li .dropdown li a {
 }
 .footer p{
     margin-bottom: 0px;
+    padding: 13px 17px;
 }
 .footer ul{
     margin-bottom: 0px;
 }
-.footer ul li{
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li {
     display: inline-block;
     padding: 13px 17px;
 }
