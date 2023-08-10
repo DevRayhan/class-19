@@ -68,6 +68,29 @@ li .dropdown li a {
     opacity: 1;
     transform: scaleY(1);
 }
+.bannerContant h1 {
+    position: relative;
+}
+.bannerContant h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 57px;
+    left: 157px;
+    width: 137px;
+    height: 3px;
+    background-color: rgb(255 255 255);
+}
+.bannerContant h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 57px;
+    right: 157px;
+    width: 137px;
+    height: 3px;
+    background-color: rgb(255 255 255);
+}
 
 /* banner       section         start */
 
@@ -106,7 +129,7 @@ li .dropdown li a {
     font-size: 17px;
     line-height: 37px;
 }
-.serviceSection a {
+.s-btn{
     text-decoration: none;
     background-color: #c69453;
     border-radius: 7px;
@@ -115,10 +138,29 @@ li .dropdown li a {
     line-height: 51px;
     transition: .7s;
 }
-.serviceSection a:hover{
+.s-btn:hover{
     background-color: black;
     color: white;
 }
+.singleService{
+    padding: 17px;
+    transition: .7s;
+}
+.singleService:hover{
+    background-color:#e7e5e3;
+}
+.singleService:hover .s-btn{
+    background-color: white;
+    color: #c69453;
+}
+.singleService img{
+    transform: rotateY(0deg);
+    transition: .7s;
+}
+.singleService:hover img{
+    transform: rotateY(360deg);
+}
+
 
 /* about      section       start */
 .aboutSection{
